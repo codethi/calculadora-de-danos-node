@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    rgb(159, 179, 255) 0%,
+    rgb(68, 105, 255) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  padding: 3rem;
+  color: #fff;
+  text-shadow: 0 0 1rem #00000060;
+  font-size: 3rem;
+}
+
+section#personagens {
+  display: flex;
+  justify-content: center;
+}
+
+section#armas {
+  display: flex;
+  justify-content: center;
+}
+
+article.card {
+  width: 20rem;
+  padding: 3rem;
+  box-shadow: 0 0 1rem #00000060;
+  margin: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #fff;
+}
+
+article.card:hover {
+  transform: scale(1.1);
+}
+
+article.card img {
+  width: 15rem;
+  height: 15rem;
+}
+
+article.card h2 {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+section#button {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+section#button button{
+    outline: none;
+    border: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    color: rgb(68, 105, 255);
+    border: .2rem solid rgb(68, 105, 255);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+section#button button:hover{
+    background-color: rgb(68, 105, 255);
+    color: #fff;
+    border: .2rem solid #fff;
+}

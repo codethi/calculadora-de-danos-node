@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Calculadora de Danos</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Danos</h1>
+    </header>
+    
+    <section id="personagens">
+        <% personagens.forEach(item => { %>
+            <article class="card">
+                <img src="<%= item.imagem %>" alt="">
+                <h2><%= item.nome %></h2>
+            </article>
+        <% }) %>
+    </section>
+
+    <section id="armas">
+        <% armas.forEach(item => { %>
+            <article class="card">
+                <img src="<%= item.imagem %>" alt="">
+                <h2><%= item.nome %></h2>
+            </article>
+        <% }) %>
+    </section>
+
+    <section id="button">
+        <button>Calcular Dano</button>
+    </section>
+
+</body>
+</html>

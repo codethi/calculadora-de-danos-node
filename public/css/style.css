@@ -24,6 +24,14 @@ header h1 {
   font-size: 3rem;
 }
 
+h2.sub-title {
+  text-align: center;
+  padding: 3rem;
+  color: #fff;
+  text-shadow: 0 0 1rem #00000060;
+  font-size: 2rem;
+}
+
 section#personagens {
   display: flex;
   justify-content: center;
@@ -64,27 +72,27 @@ article.card h2 {
 }
 
 section#button {
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
 }
 
-section#button button{
-    outline: none;
-    border: 0;
-    padding: 1rem;
-    font-size: 2rem;
-    border-radius: .5rem;
-    background-color: #fff;
-    color: rgb(68, 105, 255);
-    border: .2rem solid rgb(68, 105, 255);
-    font-weight: 700;
-    cursor: pointer;
-    transition: all .8s;
+section#button button {
+  outline: none;
+  border: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  color: rgb(68, 105, 255);
+  border: 0.2rem solid rgb(68, 105, 255);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.7s;
 }
 
-section#button button:hover{
-    background-color: rgb(68, 105, 255);
-    color: #fff;
-    border: .2rem solid #fff;
+section#button button:hover {
+  background-color: rgb(68, 105, 255);
+  color: #fff;
+  border: 0.2rem solid #fff;
 }

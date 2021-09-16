@@ -12,18 +12,22 @@
         <h1>Calculadora de Danos</h1>
     </header>
     
+    <h2 class="sub-title">Selecione um personagem</h2>
+
     <section id="personagens">
         <% personagens.forEach(item => { %>
-            <article class="card">
+            <article class="card elemento">
                 <img src="<%= item.imagem %>" alt="">
                 <h2><%= item.nome %></h2>
             </article>
         <% }) %>
     </section>
 
+    <h2 class="sub-title">Selecione uma arma</h2>
+
     <section id="armas">
         <% armas.forEach(item => { %>
-            <article class="card">
+            <article class="card elemento">
                 <img src="<%= item.imagem %>" alt="">
                 <h2><%= item.nome %></h2>
             </article>
@@ -33,6 +37,8 @@
     <section id="button">
         <button>Calcular Dano</button>
     </section>
+
+    <script src="../index.js"></script>
 
 </body>
 </html>

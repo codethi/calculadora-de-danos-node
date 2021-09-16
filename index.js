@@ -36,6 +36,8 @@ const armas = [
     }
 ] 
 
+
+
 app.get("/", (req, res) => {
   res.render("index", {personagens: personagens, armas: armas});
 });
